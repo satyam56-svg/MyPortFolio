@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio Website">
+    <title>My Portfolio-Web Developer</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>MyPortfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggleBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <!-- Dark Mode Toggle Button -->
+        <button id="themeToggleBtn" aria-label="Toggle Dark/Light Mode">🌙</button>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hey, I'm <span class="highlight">Satyam Kumar</span></h1>
+            <p>I'm a Front-End Web Developer passionate about building beautiful and functional websites.</p>
+            <a href="#projects" class="btn-primary">See My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/img/satyamKumarProfile.png" alt="Profile photo" />
+        </div>
+    </section>
+
+    <section id="about" class="about-section reveal">
+        <h2>About Me</h2>
+        <p>Hello! I'm Satyam Kumar, a passionate web developer with a knack for creating clean, responsive, and
+            user-friendly websites. I love turning ideas into reality using HTML, CSS, and JavaScript, with a constant
+            drive to learn and improve.</p>
+        <p>With a background in computer science and hands-on experience, I focus on writing efficient code and
+            delivering pixel-perfect designs. Outside coding, I enjoy exploring new technologies, reading, and sharing
+            knowledge with the community.</p>
+    </section>
+
+    <div class="about-cards">
+        <div class="about-card">
+            <h3>Education</h3>
+            <p>B.Tech. Computer Science<br>Heritage Institute of technology</p>
+        </div>
+        <div class="about-card">
+            <h3>Experience</h3>
+            <p>Fresher</p>
+        </div>
+        <div class="about-card">
+            <h3>Interests</h3>
+            <p>UI/UX Design, Coding Challenges, Cricket</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+
+            <div class="skill-card">
+                <span class="skill-icon">💻</span>
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="90%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-icon">💻</span>
+                <h3>JAVA</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="70%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-icon">🎨</span>
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-icon">⚡</span>
+                <h3>JavaScript (Soon)</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="40%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-icon">📱</span>
+                <h3>Responsive Design</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-icon">🛠️</span>
+                <h3>Git & GitHub</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-fill="80%"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section Start -->
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-list">
+            <div class="project-card">
+                <h3>Real Estate Mediator</h3>
+                <p>A web-based platform that acts as a mediator between property buyers and sellers. Built with HTML,
+                    CSS (और भविष्य में JS).</p>
+                <a href="https://github.com/Estate-mediator" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Projects Section End -->
+
+    <section id="faq" class="faq-section reveal">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <button class="faq-question">
+            What technologies do you use in your projects? <span class="icon">+</span>
+        </button>
+        <div class="faq-answer">
+            <p>I primarily use HTML, CSS, and JavaScript to build responsive and interactive websites.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Can I contact you for freelance work? <span class="icon">+</span>
+        </button>
+        <div class="faq-answer">
+            <p>Yes! Feel free to reach out via the contact form or social media links provided on the website.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Do you plan to add backend functionalities? <span class="icon">+</span>
+        </button>
+        <div class="faq-answer">
+            <p>Yes, I plan to learn backend development soon to make my sites more dynamic and functional.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Got a question or want to work together? Feel free to reach out!</p>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:your.email@example.com">satyamkumarsharma245@gmail.com</a></p>
+            <p>Phone: +91 9162406848</p>
+            <!-- चाहें तो और details add करें -->
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <p>&copy; 2025 Satyam kumar. All rights reserved.</p>
+    </footer>
+    <!-- Footer End -->
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/satyamsharma2508?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">
+            <img src="assets/icons/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/satyamsharma2508?igsh=YWR4a3pubzY1Nzk1" target="_blank"
+            aria-label="Instagram">
+            <img src="assets/icons/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://youtube.com/@satyamkumar-dv6qy?si=xjli1Xoq9jxPtG0Y" target="_blank" aria-label="YouTube">
+            <img src="assets/icons/youtube.png" alt="YouTube" />
+        </a>
+        <a href="https://x.com/SatyamK47765672" target="_blank" aria-label="X (Twitter)">
+            <img src="assets/icons/x.png" alt="X (Twitter)" />
+        </a>
+        <a href="https://www.linkedin.com/in/satyam-kumar-6a6888281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/satyam56-svg" target="_blank" aria-label="GitHub">
+            <img src="assets/icons/github.png" alt="GitHub" />
+        </a>
+    </div>
+
+
+    <div class="icon-credits" style="text-align:center; font-size:0.75rem; color:#666; margin: 2rem 0;">
+        <small>
+            <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons" target="_blank"
+                rel="noopener noreferrer">
+                Instagram icons created by Grow studio - Flaticon
+            </a><br>
+            <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons" target="_blank"
+                rel="noopener noreferrer">
+                Facebook icons created by Freepik - Flaticon
+            </a><br>
+            <a href="https://www.flaticon.com/free-icons/brands-and-logotypes" title="brands and logotypes icons"
+                target="_blank" rel="noopener noreferrer">
+                Brands and logotypes icons created by Freepik - Flaticon
+            </a><br>
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" target="_blank"
+                rel="noopener noreferrer">
+                Linkedin icons created by riajulislam - Flaticon
+            </a><br>
+            <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons" target="_blank"
+                rel="noopener noreferrer">
+                Youtube icons created by Freepik - Flaticon
+            </a>
+        </small>
+    </div>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="project.js"></script>
+
+</body>
+
+</html>
