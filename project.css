@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -574,12 +575,4 @@ button#themeToggleBtn:hover {
 .faq-question.active .icon {
     transform: rotate(45deg);
     transition: transform 0.3s;
-}
-
-.icon {
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1;
-    transition: transform 0.3s;
-    user-select: none;
 }
